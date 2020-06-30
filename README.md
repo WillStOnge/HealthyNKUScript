@@ -4,7 +4,7 @@ Author: Will St. Onge
 
 This script is made to fill out and submit the Health@NKU form that NKU made for the Fall 2020 semester because of COVID-19.
 It doesn't run by itself so, you will need to schedule it yourself or manually run it.
-The only officially supported browser is Mozilla Firefox (https://www.mozilla.org/en-US/firefox/new/). I will probably add support for Chrome and Edge later on.
+Currently, only Mozilla Firefox, Google Chrome, and Edge are supported.
 
 To run this script, you need to install Python 3 or later (https://www.python.org/downloads/) and run "pip install selenium" in your terminal to install the Selenium library.
 You will also need to download Mozilla's geckodriver (https://github.com/mozilla/geckodriver/releases) and add it to your PATH (https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/).
