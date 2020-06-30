@@ -2,7 +2,7 @@
 #
 # This script is made to fill out and submit the Health@NKU form that NKU made for the Fall 2020 semester because of COVID-19.
 # It doesn't run by itself so, you will need to schedule it yourself or manually run it.
-# The only officially supported browser is Mozilla Firefox (https://www.mozilla.org/en-US/firefox/new/). I will probably add support for Chrome and Edge later on.
+# This script only supports Mozilla Firefox, if you need another version download it from the GitHub repo (https://github.com/WillStOnge/HealthyNKUScript)
 #
 # To run this script, you need to install Python 3 or later (https://www.python.org/downloads/) and run "pip install selenium" in your terminal to install the Selenium library.
 # You will also need to download Mozilla's geckodriver (https://github.com/mozilla/geckodriver/releases) and add it to your PATH (https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/).
@@ -24,7 +24,7 @@ import time, sys
 
 # Make sure script was fed a username and password.
 if len(sys.argv) < 3:
-    print('Usage: python form.py username password')
+    print('Usage: python firefox.py username password')
     exit(3)
 
 # Get username and password from command line.
