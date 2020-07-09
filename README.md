@@ -4,7 +4,7 @@ Author: Will St. Onge
 
 This script is made to fill out and submit the Health@NKU form that NKU made for the Fall 2020 semester because of COVID-19.
 It doesn't run by itself so, you will need to schedule it yourself or manually run it.
-Currently, only Mozilla Firefox, Google Chrome, and Edge are supported.
+Currently, only Mozilla Firefox and Google Chrome are supported.
 
 Instructions for use can be found in the header comments of each script.
 
